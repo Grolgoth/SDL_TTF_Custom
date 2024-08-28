@@ -31,8 +31,8 @@
 #include FT_GLYPH_H
 #include FT_TRUETYPE_IDS_H
 
-#include "SDL2/SDL.h"
-#include "SDL2/SDL_endian.h"
+#include "SDL.h"
+#include "SDL_endian.h"
 #include "../include/sdl_ttf_custom.h"
 
 /* FIXME: Right now we assume the gray-scale renderer Freetype is using

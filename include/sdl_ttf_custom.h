@@ -27,8 +27,8 @@
 #ifndef _SDL_TTF_H
 #define _SDL_TTF_H
 
-#include <SDL2/SDL.h>
-#include "SDL2/begin_code.h"
+#include <SDL.h>
+#include "begin_code.h"
 #include <ft2build.h>
 #include <freetype/freetype.h>
 
@@ -264,7 +264,7 @@ extern DECLSPEC Uint32 UTF8_getch(const char **src, size_t *srclen);
 #ifdef __cplusplus
 }
 #endif
-#include "SDL2/close_code.h"
+#include "close_code.h"
 
 #endif /* _SDL_TTF_H */
 
